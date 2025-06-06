@@ -41,6 +41,7 @@ export async function activateLanguageServer({ context, status, config, javaInst
     const transportLayer = config.get("languageServer.transport");
     let tcpPort: number = null;
     let env: any = { ...process.env };
+    LOG.info(`ENV: ${JSON.stringify(env)}`)
 
     if (javaInstallation.javaHome) {
         env['JAVA_HOME'] = javaInstallation.javaHome;
