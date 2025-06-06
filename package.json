@@ -1,11 +1,11 @@
 {
     "name": "kotlin",
-    "displayName": "Kotlin",
+    "displayName": "Kotlin (Rafael)",
     "description": "Code completion, debugging, linting and more",
     "icon": "resources/Icon128.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/fwcd/vscode-kotlin.git"
+        "url": "https://github.com/rgoncalve94/vscode-kotlin.git"
     },
     "version": "0.2.37",
     "preview": true,
